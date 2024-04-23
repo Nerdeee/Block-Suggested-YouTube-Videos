@@ -1,0 +1,11 @@
+{
+    "name": "Remove YouTube video suggeostions",
+    "version": "1.0.0",
+    "description": "An extension that will save you lots of time :)",
+    "manifest_version": 3,
+    "author": "Nerdeee",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Remove YouTube video suggeostions"
+    }
+}
