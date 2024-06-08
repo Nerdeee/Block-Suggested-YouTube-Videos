@@ -3,10 +3,6 @@
     "name": "ProductiveTube",
     "description": "An extension that keeps you focused while needing to use YouTube",
     "version": "1.0",
-    "action": {
-        "default_popup": "index.html",
-        "default_icon": "images/icon_img.png"
-    },
     "icons": {
         "16": "images/icon-16.png",
         "32": "images/icon-32.png",
@@ -24,5 +20,20 @@
                 "https://developer.chrome.com/docs/webstore/*"
             ]
         }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "32": "images/icon-32.png",
+            "48": "images/icon-48.png",
+            "128": "images/icon-128.png"
+        }
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
     ]
 }
