@@ -33,3 +33,7 @@ chrome.action.onClicked.addListener(async (tab) => {
         }
     }
 })
+
+chrome.webNavigation.onCommitted.addListener((event) => {
+
+}, { url: [{ hostSuffix: 'youtube.com' }] })
